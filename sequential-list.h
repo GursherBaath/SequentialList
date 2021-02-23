@@ -14,14 +14,13 @@ private:
 	// A pointer to the block of memory allocated to store the list data.
 	DataType *data_;
 	// The capacity of the list
-	// (i.e., the maximum number of items the list can store).
 	unsigned int capacity_;
 	// The number of used elements in data_.
 	unsigned int size_;
 
-	// Copy constructor. Declared private so we don't use it incorrectly.
+	// Copy constructor.
 	SequentialList(const SequentialList& rhs) {}
-	// Assignment operator. Declared private so we don't use it incorrectly.
+	// Assignment operator.
 	SequentialList& operator=(const SequentialList& rhs) {}
 
 public:
