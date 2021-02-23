@@ -160,4 +160,3 @@ bool SequentialList::replace(unsigned int index, DataType val)
         return true;
     }
 }
-
